@@ -1,0 +1,59 @@
+/* ===============
+   MAINS COLORS
+
+    #92A683 : light-green
+    #E4BDA3 : salmon
+    #F1F1F1 : light-grey
+=============== */
+html, body{
+    color: #F1F1F1;
+    background: #92A683;
+    /* background: -moz-linear-gradient(90deg, rgba(146,166,131,1) 40%, rgba(228,189,163,1) 60%);
+    background: -webkit-linear-gradient(90deg, rgba(146,166,131,1) 40%, rgba(228,189,163,1) 60%);
+    background: linear-gradient(90deg, rgba(146,166,131,1) 40%, rgba(228,189,163,1) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#92a683",endColorstr="#e4bda3",GradientType=1); */
+}
+
+/* font weight */
+.font-15{
+    font-size: 1.5rem;
+}
+/* font color */
+.font-light-green{
+    color: #92A683;
+}
+.font-pink{
+    color: #E4BDA3;
+}
+.font-light-grey{
+    color: #F1F1F1;
+}
+.font-white{
+    color: #fff;
+}
+/* background */
+.bg-light-green{
+    background-color: #92A683;
+}
+.bg-pink{
+    background-color: #E4BDA3;
+}
+.bg-light-grey{
+    background-color: #F1F1F1;
+}
+.bg-white{
+    background-color: #fff;
+}
+/* neumorphism */
+.n-card{
+    border-radius: 10px;
+    background: #92A683;
+    box-shadow: 8px 8px 25px #7c8d6f, -8px -8px 25px #a8bf97;
+}
+.n-btn{
+    padding: 10px 13px;
+    font-size: 1.3rem;
+    border-radius: 100%;
+    background: #92A683;
+    box-shadow: 19px 19px 40px #798a6d, -19px -19px 40px #abc299;
+}

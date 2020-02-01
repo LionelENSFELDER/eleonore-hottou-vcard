@@ -1,0 +1,23 @@
+{
+  "name": "eleonore-hottou",
+  "version": "1.0.0",
+  "description": "Card style personal website of Eléonore Hottou",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionelENSFELDER/eleonore-hottou.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LionelENSFELDER/eleonore-hottou/issues"
+  },
+  "homepage": "https://github.com/LionelENSFELDER/eleonore-hottou#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "bootstrap": "^4.4.1"
+  }
+}
