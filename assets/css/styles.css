@@ -53,7 +53,27 @@ html, body{
 .n-btn{
     padding: 10px 13px;
     font-size: 1.3rem;
-    border-radius: 100%;
     background: #92A683;
-    box-shadow: 19px 19px 40px #798a6d, -19px -19px 40px #abc299;
+    box-shadow: 13px 13px 30px #798a6d, -13px -13px 30px #abc299;
+}
+.n-btn:hover{
+    font-size: 1.2rem;
+    background: linear-gradient(315deg, #839576, #9cb28c);
+}
+a.n-btn:hover i{
+    color: rgba(255, 255, 255, 0.383);
+}
+/* border radius */
+.br-100{
+    border-radius: 100%;
+}
+.br-10{
+    border-radius: 10px;
+}
+/* text shadow */
+.title{
+    font-family: 'Raleway', sans-serif;
+    color: #92A683;
+    font-size: 3.3rem;
+    text-shadow: -1px 1px 1px #92A683, 1px -1px 0 #E4BDA3;
 }
