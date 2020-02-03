@@ -28,4 +28,4 @@ Accueillir et maintenir une meilleure qualité de vie au quotidien font aussi pa
 
 ## Wireframe
 
-![main](./assets/wireframe/main.jpg "main wireframe")
+![main](https://github.com/LionelENSFELDER/eleonore-hottou-vcard/blob/master/assets/wireframe/main.JPG "main wireframe")
