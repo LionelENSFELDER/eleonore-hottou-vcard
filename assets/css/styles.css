@@ -6,7 +6,7 @@
     #F1F1F1 : light-grey
 =============== */
 html, body{
-    color: #F1F1F1;
+    color: #fff;
     background: #92A683;
     /* background: -moz-linear-gradient(90deg, rgba(146,166,131,1) 40%, rgba(228,189,163,1) 60%);
     background: -webkit-linear-gradient(90deg, rgba(146,166,131,1) 40%, rgba(228,189,163,1) 60%);
@@ -38,6 +38,9 @@ html, body{
 .bg-pink{
     background-color: #E4BDA3;
 }
+.bg-soft-green{
+    background-color: #92A683;
+}
 .bg-light-grey{
     background-color: #F1F1F1;
 }
@@ -50,11 +53,17 @@ html, body{
     background: #92A683;
     box-shadow: 8px 8px 25px #7c8d6f, -8px -8px 25px #a8bf97;
 }
+.n-card-in {
+	border-radius: 10px;
+	background: #92A683;
+    box-shadow: inset 8px 8px 25px #7c8d6f, inset -8px -8px 25px #a8bf97
+	/* box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.692); */
+}
 .n-btn{
     padding: 10px 13px;
     font-size: 1.3rem;
     background: #92A683;
-    box-shadow: 13px 13px 30px #798a6d, -13px -13px 30px #abc299;
+    box-shadow: 9px 9px 30px #798a6d, -9px -9px 30px #abc299;
 }
 .n-btn:hover{
     font-size: 1.2rem;
@@ -63,6 +72,17 @@ html, body{
 a.n-btn:hover i{
     color: rgba(255, 255, 255, 0.383);
 }
+.n-img{
+    padding: 10px 10px;
+    background: transparent;
+    box-shadow: 9px 9px 30px #798a6d, -9px -9px 30px #abc299;
+    width: 80%;
+}
+.n-img:hover{
+    width: 90%;
+    background: linear-gradient(315deg, #839576, #9cb28c);
+}
+
 /* border radius */
 .br-100{
     border-radius: 100%;
@@ -73,7 +93,7 @@ a.n-btn:hover i{
 /* text shadow */
 .title{
     font-family: 'Raleway', sans-serif;
-    color: #92A683;
+    /* color: rgba(146, 166, 131, 0.863);
     font-size: 3.3rem;
-    text-shadow: -1px 1px 1px #92A683, 1px -1px 0 #E4BDA3;
+    text-shadow: -1px 1px 1px #92A683, 1px -1px 0 rgb(138, 153, 127); */
 }
