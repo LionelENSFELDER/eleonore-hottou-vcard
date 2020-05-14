@@ -73,15 +73,20 @@ a.n-btn:hover i{
     color: rgba(255, 255, 255, 0.383);
 }
 .n-img{
-    padding: 10px 10px;
+    padding: 12px 12px;
     background: transparent;
     box-shadow: 9px 9px 30px #798a6d, -9px -9px 30px #abc299;
     width: 80%;
+    background-image: linear-gradient(1deg, #E4BDA3, #9cb28c);
+    animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+    -ms-animation: spin 2s linear infinite;
 }
-.n-img:hover{
+/* .n-img:hover{
     width: 82%;
-    background: linear-gradient(315deg, #E4BDA3, #9cb28c);
-}
+    background: linear-gradient(360deg, #E4BDA3, #9cb28c);
+} */
 
 /* border radius */
 .br-100{
@@ -96,4 +101,54 @@ a.n-btn:hover i{
     /* color: rgba(146, 166, 131, 0.863);
     font-size: 3.3rem;
     text-shadow: -1px 1px 1px #92A683, 1px -1px 0 rgb(138, 153, 127); */
+}
+
+@keyframes spin {
+    from, to { background-image: linear-gradient(1deg, #E4BDA3, #9cb28c); }
+    10%      { background-image: linear-gradient(40deg, #E4BDA3, #9cb28c); }
+    20%      { background-image: linear-gradient(80deg, #E4BDA3, #9cb28c); }
+    30%      { background-image: linear-gradient(120deg, #E4BDA3, #9cb28c); }
+    40%      { background-image: linear-gradient(160deg, #E4BDA3, #9cb28c); }
+    50%      { background-image: linear-gradient(200deg, #E4BDA3, #9cb28c); }
+    60%      { background-image: linear-gradient(240deg, #E4BDA3, #9cb28c); }
+    70%      { background-image: linear-gradient(280deg, #E4BDA3, #9cb28c); }
+    80%      { background-image: linear-gradient(320deg, #E4BDA3, #9cb28c); }
+    90%      { background-image: linear-gradient(360deg, #E4BDA3, #9cb28c); }
+}
+}
+@-moz-keyframes spin {
+    from, to { background-image: linear-gradient(1deg, #E4BDA3, #9cb28c); }
+    10%      { background-image: linear-gradient(40deg, #E4BDA3, #9cb28c); }
+    20%      { background-image: linear-gradient(80deg, #E4BDA3, #9cb28c); }
+    30%      { background-image: linear-gradient(120deg, #E4BDA3, #9cb28c); }
+    40%      { background-image: linear-gradient(160deg, #E4BDA3, #9cb28c); }
+    50%      { background-image: linear-gradient(200deg, #E4BDA3, #9cb28c); }
+    60%      { background-image: linear-gradient(240deg, #E4BDA3, #9cb28c); }
+    70%      { background-image: linear-gradient(280deg, #E4BDA3, #9cb28c); }
+    80%      { background-image: linear-gradient(320deg, #E4BDA3, #9cb28c); }
+    90%      { background-image: linear-gradient(360deg, #E4BDA3, #9cb28c); }
+}
+@-webkit-keyframes spin {
+    from, to { background-image: linear-gradient(1deg, #E4BDA3, #9cb28c); }
+    10%      { background-image: linear-gradient(40deg, #E4BDA3, #9cb28c); }
+    20%      { background-image: linear-gradient(80deg, #E4BDA3, #9cb28c); }
+    30%      { background-image: linear-gradient(120deg, #E4BDA3, #9cb28c); }
+    40%      { background-image: linear-gradient(160deg, #E4BDA3, #9cb28c); }
+    50%      { background-image: linear-gradient(200deg, #E4BDA3, #9cb28c); }
+    60%      { background-image: linear-gradient(240deg, #E4BDA3, #9cb28c); }
+    70%      { background-image: linear-gradient(280deg, #E4BDA3, #9cb28c); }
+    80%      { background-image: linear-gradient(320deg, #E4BDA3, #9cb28c); }
+    90%      { background-image: linear-gradient(360deg, #E4BDA3, #9cb28c); }
+}
+@-ms-keyframes spin {
+    from, to { background-image: linear-gradient(1deg, #E4BDA3, #9cb28c); }
+    10%      { background-image: linear-gradient(40deg, #E4BDA3, #9cb28c); }
+    20%      { background-image: linear-gradient(80deg, #E4BDA3, #9cb28c); }
+    30%      { background-image: linear-gradient(120deg, #E4BDA3, #9cb28c); }
+    40%      { background-image: linear-gradient(160deg, #E4BDA3, #9cb28c); }
+    50%      { background-image: linear-gradient(200deg, #E4BDA3, #9cb28c); }
+    60%      { background-image: linear-gradient(240deg, #E4BDA3, #9cb28c); }
+    70%      { background-image: linear-gradient(280deg, #E4BDA3, #9cb28c); }
+    80%      { background-image: linear-gradient(320deg, #E4BDA3, #9cb28c); }
+    90%      { background-image: linear-gradient(360deg, #E4BDA3, #9cb28c); }
 }
